@@ -1,0 +1,21 @@
+.div1 {
+    border: 5px green solid;
+    
+}
+.div2{
+    border: 5px red solid;
+}
+img{
+    display: block;
+    padding: 5px;
+    margin: 2px;
+}
+section{
+    display: flex;
+    border: blue 2px solid;
+    padding: 20px;
+    gap: 50px;
+}
+div{
+    height: fit-content;
+}

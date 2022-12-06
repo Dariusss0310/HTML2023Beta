@@ -1,0 +1,56 @@
+form input,form textarea{
+    display: block
+
+}
+input{
+    border: 3px black solid;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    width: 350px;
+}
+textarea{
+    border: 3px black solid;
+    padding: 10px;
+    margin-top: 20px;
+    margin: 10px;
+    width: 350px;
+}
+div{
+    box-shadow: red;
+    box-shadow: 3px;
+width: 100%;
+max-width: 500px;
+margin: auto;
+padding: 10px;
+}
+form{
+    background-color: rgb(244, 243, 239);
+}
+body{
+    background-color: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
+}
+.submit{
+  
+    background-color: blueviolet;
+    width: 85%;
+    text-align: center;
+    
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+   
+}
+input:valid,
+textarea:valid{
+    border-color: rgb(185, 34, 7);
+}
+input:invalid,
+textarea:invalid{
+    border-color: rgb(4, 91, 24);
+}
